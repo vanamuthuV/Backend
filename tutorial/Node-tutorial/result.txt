@@ -1,0 +1,40 @@
+const {Sayer, Person} = require("./hello")
+require("./add")
+
+const Fruits = ['Apple', 'Banana', 'Orange', 'Mango']
+
+Fruits.map(item => {
+    return Sayer(item)
+})
+
+Person.map((item) => {
+    return console.log(item)
+})
+
+ + const { log } = require("console");
+const os = require("os");
+const path = require("path");
+const fs = require('fs');
+const { fileURLToPath } = require("url");
+
+const filesapp = fs.readFileSync('./app.js', 'utf-8')
+const filesmodules = fs.readFileSync('./modules.js', 'utf-8')
+
+fs.writeFileSync('./result.txt', `${filesapp} + ${filesmodules}`)
+
+// const UserInfo = {
+//   Name: os.type(),
+//   release: os.release(),
+//   uptime: os.uptime(),
+//   homedir: os.homedir(),
+//   totalmemory: os.totalmem(),
+//   version: os.version(),
+//   paltform: os.platform(),
+// };
+
+// console.log(path.basename('tutorial/hello.js'));
+// console.log(path.resolve)
+// console.log(path.relative);
+// console.log(path.dirname);
+// console.log(UserInfo);
+This Message is been appended...

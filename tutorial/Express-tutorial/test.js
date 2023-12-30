@@ -1,0 +1,1 @@
+fetch("http://hn.algolia.com/api/v1/items/1").then((res) => res.json()).then(data => console.log(data));

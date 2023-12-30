@@ -1,0 +1,12 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "https.js",
+  "scripts": {
+    "start": "nodemon https.js",
+    "dev": "nodemon https.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
